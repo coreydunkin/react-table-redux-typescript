@@ -6,6 +6,7 @@ import {ILocationDataContext, IlocationsData} from "./lib/types";
 import LocationSearch from "./components/LocationSearch";
 import {Box} from "@mui/material";
 import {purple} from "@mui/material/colors";
+import {Counter} from "./features/counter/Counter";
 
 export const LocationDataContext = React.createContext<ILocationDataContext>({} as ILocationDataContext);
 
